@@ -1,0 +1,25 @@
+* {
+
+}
+
+body {
+  background: grey;
+  background-size: cover;
+  background-repeat: none;
+  height: 100%;
+  width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+  color: white;
+}
+
+#left-col, #right-col {
+  height: 50%;
+
+}
+
+img {
+  width: 50%;
+}
