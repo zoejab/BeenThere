@@ -30,7 +30,7 @@ mongoose.connect('mongodb://localhost/BeenThereApp', function (err) {
 });
 
 //Set up the port to listen
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 8000));
 
 app.listen(app.get('port'), function() {
     console.log("App running on port : ", app.get('port'));
